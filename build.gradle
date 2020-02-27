@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClassName = 'de.prob2.RandomSteps'
+}
+
+dependencies {
+    implementation 'de.hhu.stups:de.prob2.kernel:3.10.0'
+}
